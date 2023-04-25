@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  /* color: #e8e8e890; */
+  /* background: #060e1e; */
+}
+
+img {
+  width: 50px;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+}
+
+.App {
+  padding: 5px 20px;
+}
+
+nav {
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 0, 0, 0.425);
+}
+
+nav ul {
+  display: flex;
+  gap: 8px;
+}
+
+nav ul li {
+  padding: 3px 5px;
+}
+
+main {
+  /* border: 1px solid; */
+  display: flex;
+  gap: 32px;
+}
+
+main .smart {
+  /* border: 1px solid; */
+  width: 30%;
+  /* height: 300px; */
+  margin: 16px;
+  /* padding: 32px; */
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: space-between;
+}
+
+main .smart-2 {
+  width: 100%;
+  margin: 16px;
+  /* height: 100%; */
+  /* display: flex; */
+}
+
+main .smart-2 img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.service {
+  /* border: 1px solid; */
+  margin: 48px;
+  padding: 16px;
+}
+
+.service-heading {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid; */
+}
+
+.service-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+  /* border: 1px solid; */
+  margin: 16px 0;
+}
+
+.service-body .body {
+  border: 1px solid;
+  border-radius: 10px;
+  width: 250px;
+  height: 300px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.service-body .body img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.why {
+  /* border: 1px solid; */
+  display: flex;
+  gap: 16px;
+  justify-content: space-around;
+  padding: 16px;
+}
+
+.why div {
+  /* border: 1px solid; */
+  width: 50%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.why img {
+  width: 250px;
+}
+
+.quality {
+  border-radius: 10px;
+  display: flex;
+  /* gap: 16px; */
+  justify-content: space-evenly;
+  background: rgba(104, 221, 253, 0.53);
+  /* padding: 48px; */
+}
+
+.quality #quality {
+  width: 50%;
+  height: 500px;
+  padding: 50px;
+}
+
+.quality .body {
+  /* border: 1px solid; */
+  padding: 50px;
+  width: 50%;
+}
+
+.body div .icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  /* border: 1px solid; */
+}
+
+.body div {
+  display: flex;
+  gap: 32px;
+}
