@@ -54,6 +54,11 @@ nav ul li {
   padding: 16px;
 }
 
+nav ul li:hover {
+  background: rebeccapurple;
+  cursor: pointer;
+}
+
 nav div {
   height: 100%;
   /* border: 1px solid; */
