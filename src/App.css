@@ -52,6 +52,7 @@ nav ul li {
   align-items: center;
   gap: 16px;
   padding: 16px;
+  transition: ease-in-out 200ms;
 }
 
 nav ul li:hover {
@@ -70,6 +71,7 @@ nav div button {
   width: 100%;
   padding: 8px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 main {
